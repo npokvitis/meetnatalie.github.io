@@ -49,6 +49,7 @@ table {
 
 
 
+
 /*custom styles
 */
 body{
@@ -98,7 +99,7 @@ nav li{
   font-size: 30px;
   letter-spacing: 0px;
   margin-left: 10px;
-  width:100px;
+  width:10%;
   opacity: 0.7;
 }
 
@@ -126,7 +127,7 @@ nav li:hover{
 }
 
 .title {
-  width: 500px;
+  width: 50%;
   margin: 0 auto;
   text-align: center;
 }
@@ -134,7 +135,7 @@ nav li:hover{
 .divider{
   background: url('image/back_border.png');
   background-repeat: repeat-x;
-  width:500px;
+  width: 50%;
   height: 15px;
   margin: 0 auto;
 }
@@ -162,7 +163,7 @@ nav li:hover{
 }
 
 article{
-  width: 400px;
+  width: 40%;
   font-size: 20px;
   margin: 0 auto;
   text-align: center;
@@ -200,4 +201,14 @@ blockquote{
 
 }
 
+@media (min-width: 900px) {
+
+
+  }
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 70%;
+  }
+}
 
